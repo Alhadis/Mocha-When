@@ -1,0 +1,23 @@
+{
+	"name": "mocha-when",
+	"version": "v0.0.0",
+	"license": "ISC",
+	"files": ["index.js", "register.js"],
+	"repository": "https://github.com/Alhadis/Mocha-When.git",
+	"description": "Write BDD-style tests with eloquence.",
+	"author": "John Gardner <gardnerjohng@gmail.com>",
+	"devDependencies": {
+		"@alhadis/eslint-config": "^1.2.0",
+		"eslint": "^5.15.0",
+		"mocha":  "^6.0.2",
+		"chai":   "^4.2.0"
+	},
+	"scripts": {
+		"lint": "npx eslint .",
+		"test": "npx mocha"
+	},
+	"eslintConfig": {
+		"extends": "@alhadis",
+		"globals": {"when": true}
+	}
+}

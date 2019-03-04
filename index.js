@@ -10,7 +10,7 @@
  * @public
  */
 module.exports = (options = {}) => {
-	let lastIt;
+	let lastIt = global.it;
 	const {
 		addComma      = false,
 		lowercaseWhen = false,

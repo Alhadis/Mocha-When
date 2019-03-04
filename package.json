@@ -14,7 +14,7 @@
 	},
 	"scripts": {
 		"lint": "npx eslint .",
-		"test": "npx mocha"
+		"test": "prove"
 	},
 	"eslintConfig": {
 		"extends": "@alhadis",

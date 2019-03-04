@@ -1,3 +1,6 @@
+[![Build Status: TravisCI](https://travis-ci.org/Alhadis/Mocha-When.svg?branch=master)](https://travis-ci.org/Alhadis/Mocha-When)
+[![Latest package version](https://img.shields.io/npm/v/mocha-when.svg?colorB=brightgreen)](https://github.com/Alhadis/Mocha-When/releases/latest)
+
 “What's this?”
 --------------
 This is a drop-in enhancement for [Mocha's BDD interface](https://mochajs.org/#bdd),

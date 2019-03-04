@@ -5,6 +5,7 @@
 	"files": ["index.js", "register.js"],
 	"repository": "https://github.com/Alhadis/Mocha-When.git",
 	"description": "Write BDD-style tests with eloquence.",
+	"keywords": ["mocha", "bdd", "idiomatic", "literate", "zero-config"],
 	"author": "John Gardner <gardnerjohng@gmail.com>",
 	"devDependencies": {
 		"@alhadis/eslint-config": "^1.2.0",

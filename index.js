@@ -31,10 +31,10 @@ module.exports = (options = {}) => {
 
 
 /**
- * @const {Symbol} OriginalMethod
+ * @const {Symbol} MochaWhen.OriginalMethod
  * @summary Symbol for referencing the original version of a replaced global.
  */
-const OriginalMethod = Symbol("OriginalMethod");
+const OriginalMethod = Symbol.for("MochaWhen.OriginalMethod");
 
 
 /**

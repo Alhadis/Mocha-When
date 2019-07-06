@@ -64,13 +64,13 @@ So you needn't worry about stuff like this:
 Usage
 -----
 1.	Add `mocha-when` to your project's dependencies:
-		~~~sh
-		# Using NPM:
-		npm install --save-dev mocha-when
+	~~~sh
+	# Using NPM:
+	npm install --save-dev mocha-when
 
-		# Or with Yarn:
-		yarn add mocha-when
-		~~~
+	# Or with Yarn:
+	yarn add mocha-when
+	~~~
 
 2.	Activate it by calling the function it exports:
 	~~~js
